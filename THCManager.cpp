@@ -172,5 +172,10 @@ THCManager::ThreadCategory THCManager::GetCategoryList(std::string _category) {
 		}
 		it++;
 	}
-	return (ThreadCategory){std::string(), 0.0, std::list<THCCommand*>(), NULL, NULL, NULL, NULL, NULL, NULL};
+	ThreadCategory retcategory;
+	memset(&retcategory, 0x0, sizeof(ThreadCategory));
+	retcategory.category = std::string();
+	retcategory.priotiry = 0.0;
+	retcategory.list_command = std::list<THCCommand*>();
+	return retcategory;
 }

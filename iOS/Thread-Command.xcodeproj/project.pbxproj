@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC83A99F16C4FB830091D69A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC83A99E16C4FB830091D69A /* Foundation.framework */; };
+		AC83A9AE16C4FB830091D69A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC83A9AD16C4FB830091D69A /* SenTestingKit.framework */; };
+		AC83A9B016C4FB830091D69A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC83A9AF16C4FB830091D69A /* UIKit.framework */; };
+		AC83A9B116C4FB830091D69A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC83A99E16C4FB830091D69A /* Foundation.framework */; };
+		AC83A9B416C4FB830091D69A /* libThread-Command.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC83A99B16C4FB830091D69A /* libThread-Command.a */; };
+		AC83A9BA16C4FB830091D69A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC83A9B816C4FB830091D69A /* InfoPlist.strings */; };
+		AC83A9BD16C4FB830091D69A /* Thread_CommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC83A9BC16C4FB830091D69A /* Thread_CommandTests.m */; };
+		AC83A9CC16C4FB910091D69A /* THCCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC83A9C616C4FB910091D69A /* THCCommand.cpp */; };
+		AC83A9CD16C4FB910091D69A /* THCCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC83A9C616C4FB910091D69A /* THCCommand.cpp */; };
+		AC83A9CE16C4FB910091D69A /* THCEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC83A9C816C4FB910091D69A /* THCEvent.cpp */; };
+		AC83A9CF16C4FB910091D69A /* THCEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC83A9C816C4FB910091D69A /* THCEvent.cpp */; };
+		AC83A9D016C4FB910091D69A /* THCManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC83A9CA16C4FB910091D69A /* THCManager.cpp */; };
+		AC83A9D116C4FB910091D69A /* THCManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC83A9CA16C4FB910091D69A /* THCManager.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC83A9B216C4FB830091D69A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC83A99316C4FB830091D69A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC83A99A16C4FB830091D69A;
+			remoteInfo = "Thread-Command";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC83A99916C4FB830091D69A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AC83A99B16C4FB830091D69A /* libThread-Command.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libThread-Command.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC83A99E16C4FB830091D69A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC83A9A216C4FB830091D69A /* Thread-Command-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Thread-Command-Prefix.pch"; sourceTree = "<group>"; };
+		AC83A9AC16C4FB830091D69A /* Thread-CommandTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thread-CommandTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC83A9AD16C4FB830091D69A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AC83A9AF16C4FB830091D69A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AC83A9B716C4FB830091D69A /* Thread-CommandTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thread-CommandTests-Info.plist"; sourceTree = "<group>"; };
+		AC83A9B916C4FB830091D69A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC83A9BB16C4FB830091D69A /* Thread_CommandTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Thread_CommandTests.h; sourceTree = "<group>"; };
+		AC83A9BC16C4FB830091D69A /* Thread_CommandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thread_CommandTests.m; sourceTree = "<group>"; };
+		AC83A9C616C4FB910091D69A /* THCCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = THCCommand.cpp; path = ../../THCCommand.cpp; sourceTree = "<group>"; };
+		AC83A9C716C4FB910091D69A /* THCCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THCCommand.h; path = ../../THCCommand.h; sourceTree = "<group>"; };
+		AC83A9C816C4FB910091D69A /* THCEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = THCEvent.cpp; path = ../../THCEvent.cpp; sourceTree = "<group>"; };
+		AC83A9C916C4FB910091D69A /* THCEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THCEvent.h; path = ../../THCEvent.h; sourceTree = "<group>"; };
+		AC83A9CA16C4FB910091D69A /* THCManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = THCManager.cpp; path = ../../THCManager.cpp; sourceTree = "<group>"; };
+		AC83A9CB16C4FB910091D69A /* THCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THCManager.h; path = ../../THCManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC83A99816C4FB830091D69A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC83A99F16C4FB830091D69A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC83A9A816C4FB830091D69A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC83A9AE16C4FB830091D69A /* SenTestingKit.framework in Frameworks */,
+				AC83A9B016C4FB830091D69A /* UIKit.framework in Frameworks */,
+				AC83A9B116C4FB830091D69A /* Foundation.framework in Frameworks */,
+				AC83A9B416C4FB830091D69A /* libThread-Command.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC83A99216C4FB830091D69A = {
+			isa = PBXGroup;
+			children = (
+				AC83A9A016C4FB830091D69A /* Thread-Command */,
+				AC83A9B516C4FB830091D69A /* Thread-CommandTests */,
+				AC83A99D16C4FB830091D69A /* Frameworks */,
+				AC83A99C16C4FB830091D69A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC83A99C16C4FB830091D69A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC83A99B16C4FB830091D69A /* libThread-Command.a */,
+				AC83A9AC16C4FB830091D69A /* Thread-CommandTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC83A99D16C4FB830091D69A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC83A99E16C4FB830091D69A /* Foundation.framework */,
+				AC83A9AD16C4FB830091D69A /* SenTestingKit.framework */,
+				AC83A9AF16C4FB830091D69A /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC83A9A016C4FB830091D69A /* Thread-Command */ = {
+			isa = PBXGroup;
+			children = (
+				AC83A9C616C4FB910091D69A /* THCCommand.cpp */,
+				AC83A9C716C4FB910091D69A /* THCCommand.h */,
+				AC83A9C816C4FB910091D69A /* THCEvent.cpp */,
+				AC83A9C916C4FB910091D69A /* THCEvent.h */,
+				AC83A9CA16C4FB910091D69A /* THCManager.cpp */,
+				AC83A9CB16C4FB910091D69A /* THCManager.h */,
+				AC83A9A116C4FB830091D69A /* Supporting Files */,
+			);
+			path = "Thread-Command";
+			sourceTree = "<group>";
+		};
+		AC83A9A116C4FB830091D69A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC83A9A216C4FB830091D69A /* Thread-Command-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC83A9B516C4FB830091D69A /* Thread-CommandTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC83A9BB16C4FB830091D69A /* Thread_CommandTests.h */,
+				AC83A9BC16C4FB830091D69A /* Thread_CommandTests.m */,
+				AC83A9B616C4FB830091D69A /* Supporting Files */,
+			);
+			path = "Thread-CommandTests";
+			sourceTree = "<group>";
+		};
+		AC83A9B616C4FB830091D69A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC83A9B716C4FB830091D69A /* Thread-CommandTests-Info.plist */,
+				AC83A9B816C4FB830091D69A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC83A99A16C4FB830091D69A /* Thread-Command */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC83A9C016C4FB830091D69A /* Build configuration list for PBXNativeTarget "Thread-Command" */;
+			buildPhases = (
+				AC83A99716C4FB830091D69A /* Sources */,
+				AC83A99816C4FB830091D69A /* Frameworks */,
+				AC83A99916C4FB830091D69A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thread-Command";
+			productName = "Thread-Command";
+			productReference = AC83A99B16C4FB830091D69A /* libThread-Command.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AC83A9AB16C4FB830091D69A /* Thread-CommandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC83A9C316C4FB830091D69A /* Build configuration list for PBXNativeTarget "Thread-CommandTests" */;
+			buildPhases = (
+				AC83A9A716C4FB830091D69A /* Sources */,
+				AC83A9A816C4FB830091D69A /* Frameworks */,
+				AC83A9A916C4FB830091D69A /* Resources */,
+				AC83A9AA16C4FB830091D69A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC83A9B316C4FB830091D69A /* PBXTargetDependency */,
+			);
+			name = "Thread-CommandTests";
+			productName = "Thread-CommandTests";
+			productReference = AC83A9AC16C4FB830091D69A /* Thread-CommandTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC83A99316C4FB830091D69A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = vanillabreeze;
+			};
+			buildConfigurationList = AC83A99616C4FB830091D69A /* Build configuration list for PBXProject "Thread-Command" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC83A99216C4FB830091D69A;
+			productRefGroup = AC83A99C16C4FB830091D69A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC83A99A16C4FB830091D69A /* Thread-Command */,
+				AC83A9AB16C4FB830091D69A /* Thread-CommandTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC83A9A916C4FB830091D69A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC83A9BA16C4FB830091D69A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC83A9AA16C4FB830091D69A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC83A99716C4FB830091D69A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC83A9CC16C4FB910091D69A /* THCCommand.cpp in Sources */,
+				AC83A9CE16C4FB910091D69A /* THCEvent.cpp in Sources */,
+				AC83A9D016C4FB910091D69A /* THCManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC83A9A716C4FB830091D69A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC83A9BD16C4FB830091D69A /* Thread_CommandTests.m in Sources */,
+				AC83A9CD16C4FB910091D69A /* THCCommand.cpp in Sources */,
+				AC83A9CF16C4FB910091D69A /* THCEvent.cpp in Sources */,
+				AC83A9D116C4FB910091D69A /* THCManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC83A9B316C4FB830091D69A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC83A99A16C4FB830091D69A /* Thread-Command */;
+			targetProxy = AC83A9B216C4FB830091D69A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC83A9B816C4FB830091D69A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC83A9B916C4FB830091D69A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC83A9BE16C4FB830091D69A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC83A9BF16C4FB830091D69A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC83A9C116C4FB830091D69A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Thread_Command.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thread-Command/Thread-Command-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AC83A9C216C4FB830091D69A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Thread_Command.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thread-Command/Thread-Command-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AC83A9C416C4FB830091D69A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thread-Command/Thread-Command-Prefix.pch";
+				INFOPLIST_FILE = "Thread-CommandTests/Thread-CommandTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AC83A9C516C4FB830091D69A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thread-Command/Thread-Command-Prefix.pch";
+				INFOPLIST_FILE = "Thread-CommandTests/Thread-CommandTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC83A99616C4FB830091D69A /* Build configuration list for PBXProject "Thread-Command" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC83A9BE16C4FB830091D69A /* Debug */,
+				AC83A9BF16C4FB830091D69A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC83A9C016C4FB830091D69A /* Build configuration list for PBXNativeTarget "Thread-Command" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC83A9C116C4FB830091D69A /* Debug */,
+				AC83A9C216C4FB830091D69A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC83A9C316C4FB830091D69A /* Build configuration list for PBXNativeTarget "Thread-CommandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC83A9C416C4FB830091D69A /* Debug */,
+				AC83A9C516C4FB830091D69A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC83A99316C4FB830091D69A /* Project object */;
+}

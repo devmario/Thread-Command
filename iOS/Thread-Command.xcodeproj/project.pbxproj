@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		AC83A99F16C4FB830091D69A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC83A99E16C4FB830091D69A /* Foundation.framework */; };
 		AC83A9AE16C4FB830091D69A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC83A9AD16C4FB830091D69A /* SenTestingKit.framework */; };
-		AC83A9B016C4FB830091D69A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC83A9AF16C4FB830091D69A /* UIKit.framework */; };
 		AC83A9B116C4FB830091D69A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC83A99E16C4FB830091D69A /* Foundation.framework */; };
 		AC83A9B416C4FB830091D69A /* libThread-Command.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC83A99B16C4FB830091D69A /* libThread-Command.a */; };
 		AC83A9BA16C4FB830091D69A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC83A9B816C4FB830091D69A /* InfoPlist.strings */; };
@@ -50,7 +49,6 @@
 		AC83A9A216C4FB830091D69A /* Thread-Command-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Thread-Command-Prefix.pch"; sourceTree = "<group>"; };
 		AC83A9AC16C4FB830091D69A /* Thread-CommandTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thread-CommandTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC83A9AD16C4FB830091D69A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		AC83A9AF16C4FB830091D69A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		AC83A9B716C4FB830091D69A /* Thread-CommandTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thread-CommandTests-Info.plist"; sourceTree = "<group>"; };
 		AC83A9B916C4FB830091D69A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC83A9BB16C4FB830091D69A /* Thread_CommandTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Thread_CommandTests.h; sourceTree = "<group>"; };
@@ -77,7 +75,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC83A9AE16C4FB830091D69A /* SenTestingKit.framework in Frameworks */,
-				AC83A9B016C4FB830091D69A /* UIKit.framework in Frameworks */,
 				AC83A9B116C4FB830091D69A /* Foundation.framework in Frameworks */,
 				AC83A9B416C4FB830091D69A /* libThread-Command.a in Frameworks */,
 			);
@@ -110,7 +107,6 @@
 			children = (
 				AC83A99E16C4FB830091D69A /* Foundation.framework */,
 				AC83A9AD16C4FB830091D69A /* SenTestingKit.framework */,
-				AC83A9AF16C4FB830091D69A /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

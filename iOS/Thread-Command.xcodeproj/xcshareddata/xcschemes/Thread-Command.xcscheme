@@ -28,16 +28,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC83A9AB16C4FB830091D69A"
-               BuildableName = "Thread-CommandTests.octest"
-               BlueprintName = "Thread-CommandTests"
-               ReferencedContainer = "container:Thread-Command.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

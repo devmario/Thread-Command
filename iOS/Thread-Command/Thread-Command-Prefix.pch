@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'Thread-Command' target in the 'Thread-Command' project
-//
-
-#ifdef __OBJC__
-	#import <Foundation/Foundation.h>
-#endif

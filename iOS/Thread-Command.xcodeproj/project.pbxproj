@@ -343,6 +343,7 @@
 		AC83A9C116C4FB830091D69A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
 				DSTROOT = /tmp/Thread_Command.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Thread-Command/Thread-Command-Prefix.pch";
@@ -356,6 +357,7 @@
 		AC83A9C216C4FB830091D69A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = armv7;
 				DSTROOT = /tmp/Thread_Command.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Thread-Command/Thread-Command-Prefix.pch";
